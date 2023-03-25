@@ -52,7 +52,7 @@ public class ClassUtama extends JFrame{
 
                 for (int dex=0;dex< modelRespon.size();dex++){
                     if (modelRespon.get(dex).getNamaObat().startsWith("S") && modelRespon.get(dex).getHarga()<=7000){
-                        hasil.append("Nama Barang = "+modelRespon.get(dex).getNamaObat()+" | Harga = "+modelRespon.get(dex).getHarga()+"\n");
+                        hasil.append("Nama Barang = "+modelRespon.get(dex).getNamaObat()+" || Harga = "+modelRespon.get(dex).getHarga()+"\n");
                         hasil.append("\n");
                     }
                 }
